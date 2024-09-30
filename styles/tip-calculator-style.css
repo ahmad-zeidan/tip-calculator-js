@@ -1,0 +1,119 @@
+/* Body */
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e4e4e4;
+}
+
+/* Container */
+.tip-calculator-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Inputs */
+.total-input, .tip-input, .split-bill-input {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Percentage Buttons */
+.percentage-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tip-button {
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(117, 154, 183);
+  cursor: pointer;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.tip-button:hover {
+  background-color: rgba(117, 154, 183, 0.7);
+}
+
+/* People Buttons */
+.number-of-people {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.people-button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 223, 102);
+  cursor: pointer;
+  flex-grow: 1;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.people-button img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.people-button:hover {
+  background-color: rgba(255, 223, 102, 0.7);
+}
+
+/* Calculate Button */
+.calculate-button {
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: rgb(117, 183, 117);
+  cursor: pointer;
+  width: 100%;
+}
+
+.calculate-button:hover {
+  background-color: rgba(117, 183, 117, 0.7);
+}
+
+/* Result Typography */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.tip-amount, .total-amount, .per-person {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+  width: 100%;
+}

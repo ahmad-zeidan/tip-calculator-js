@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link href="styles/tip-calculator-style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="tip-calculator-container">
+      <h1>Tip Calculator</h1>
+
+      <!-- Inputs -->
+      <input placeholder="Enter Total" class="total-input" type="number" />
+      <input placeholder="Enter Tip Percentage" class="tip-input" type="number" />
+      <input placeholder="Enter Number of People" class="split-bill-input" type="number" />
+
+      <!-- Percentage Buttons -->
+      <div class="percentage-buttons">
+        <button class="tip-button" id="ten-percent">10%</button>
+        <button class="tip-button" id="fifteen-percent">15%</button>
+        <button class="tip-button" id="twenty-percent">20%</button>
+      </div>
+
+      <!-- People Selection Buttons -->
+      <div class="number-of-people">
+        <button class="people-button" id="one-person">
+          <img src="images/one-person-icon.png" alt="One Person" />
+        </button>
+        <button class="people-button" id="two-people">
+          <img src="images/two-people-icon.png" alt="Two People" />
+        </button>
+        <button class="people-button" id="three-people">
+          <img src="images/three-people-icon.png" alt="Three People" />
+        </button>
+      </div>
+
+      <!-- Calculate Button -->
+      <button class="calculate-button">Calculate</button>
+
+      <!-- Result Display -->
+      <p class="tip-amount">Tip Amount:</p>
+      <p class="total-amount">Total:</p>
+      <p class="per-person">Per Person:</p>
+    </div>
+
+    <script src="scripts/tip-calculator.js"></script>
+  </body>
+</html>
