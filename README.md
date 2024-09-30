@@ -11,3 +11,4 @@ This is a basic tip calculator made with JavaScript. Options include selecting a
 - JavaScript
 
 # Live Demo
+[GitHub Pages - Tip Calculator JS](https://ahmad-zeidan.github.io/tip-calculator-js/)
